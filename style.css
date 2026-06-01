@@ -1,8 +1,10 @@
 *{
+    
     margin: 3px;
     padding: 3px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+
 }
 body{
 
@@ -71,18 +73,18 @@ img{
 body{
 
         display:flex;
-      justify-content:center;
+        justify-content:center;
         align-items:center;
         height:100vh;
 }
 h1{
-
+    font-style:italic;
     background-color: #152339;
     border-radius: 4px;
     padding: 10px;
     text-align: center;
     color: #ce4242;
-
+   
 
 }
 input{
@@ -109,3 +111,93 @@ align-items: end;
 
 
 }
+#city-name{
+
+    border: 1px solid #4d1010;
+    font-size: 20px;
+    border-radius: 4px;
+    width: 100%;
+    background:    
+    radial-gradient(
+    circle at top left,
+    #690d1c,
+    transparent 70%
+
+    )
+
+}
+#temperature{
+
+    font-size: 20px;
+    border: 1px solid #4d1010;
+    border-radius: 4px;
+    background:
+    radial-gradient(
+    circle at top left,
+    #690d1c,
+    transparent 70%
+
+    )
+
+}
+#description{
+
+    font-size: 20px;
+    border: 1px solid #4d1010;
+    border-radius: 4px;
+    background:
+    radial-gradient(
+    circle at top left,
+    #082233,
+    transparent 70%
+
+    )
+
+}
+
+#humidity{
+
+    font-size: 20px;
+    border: 1px solid #4d1010;
+    border-radius: 4px;
+    background:
+    radial-gradient(
+    circle at top left,
+    #1c690d,
+    transparent 70%
+
+    )
+
+}
+#wind-speed{
+
+    font-size: 20px;
+    border: 1px solid #4d1010;
+    border-radius: 4px;
+    background:
+    radial-gradient(
+    circle at top left,
+    #1cb0ae,
+    transparent 70%
+
+    )
+
+}
+
+#feels-like{
+
+    font-size: 20px;
+    border: 1px solid #4d1010;
+    border-radius: 4px;
+    background:
+    radial-gradient(
+    circle at top left,
+    #690d1c,
+    transparent 70%
+
+    )
+
+}
+
+
+
