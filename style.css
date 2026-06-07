@@ -33,9 +33,6 @@ body{
     )
      #2f2c85;
 
-
-
-
 }
 
 
@@ -49,7 +46,7 @@ body{
    background-color: #6497ba;
     padding: 20px;
     border-radius: 8px;
-    height: 600px;
+    height: 800pxpx;
     width: 700px;
      background: rgba(255,255,255,0.15);
      backdrop-filter: blur(10px);
@@ -71,8 +68,8 @@ img{
 
     transition: all 0.3s ease;
 
-    width: 50x;
-    height: 50px;
+    width: 100x;
+    height: 100px;
 
 }
 img:hover{
@@ -131,7 +128,7 @@ input{
 
     transition: all 0.3s ease;
     box-shadow: 2px 2px 4px #000000;
-    width: 50%;
+    width: 500px;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -142,6 +139,7 @@ input:hover{
     transform: scale(1.05);
 }
 #search{
+    width: 200px;
     transition: all 0.3s ease;
     padding: 10px 20px;
      border-radius: 8px;
@@ -193,140 +191,77 @@ justify-content: end;
 align-items: end;
 
 
+}
+.weatherdetails{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+    margin-top:25px;
+}
+
+h3{
+
+    transition: all 0.3s ease;
+    text-shadow: 2px 2px 4px #000000;
+    font-style:italic;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    color: #efefef;
+
+    
+
 
 }
-#city-name{
+.card{
+
     transition: all 0.3s ease;
-    margin-bottom: 10px;
     box-shadow: 2px 2px 4px #000000;
-  
-    font-size: 20px;
-    border-radius: 4px;
-    width: 100%;
-    background:    
+    padding: 20px;
+    border-radius: 8px;
+/* 
+       background:
     radial-gradient(
     circle at top left,
-    #690d1c,
-    transparent 70%
+    #e2644e,
+    transparent 50%
 
-    )
-
-}
-#city-name:hover{
-    box-shadow: 4px 4px 8px #000000;
-    transform: scale(1.05);
-
-}
-#temperature{
-    transition: all 0.3s ease;
-     margin-bottom: 10px;
-    box-shadow: 2px 2px 4px #000000;
-
-    font-size: 20px;
-  
-    border-radius: 4px;
+    ) */
     background:
-    radial-gradient(
-    circle at top left,
-    #690d1c,
-    transparent 70%
-
-    )
-
-}
-#temperature:hover{
-    box-shadow: 4px 4px 8px #000000;
-    transform: scale(1.05);
-}
-#description{
-    transition: all 0.3s ease;
- margin-bottom: 10px;
-    box-shadow: 2px 2px 4px #000000;
-    font-size: 20px;
-  
-    border-radius: 4px;
-    background:
-    radial-gradient(
-    circle at top left,
-    #082233,
-    transparent 70%
-
-    )
+linear-gradient(135deg,
+rgba(255,255,255,0.12),
+rgba(255,255,255,0.04));
+backdrop-filter: blur(12px);
 
 }
 
-#description:hover{
-    box-shadow: 4px 4px 8px #000000;
-    transform: scale(1.05);
-}
 
-#humidity{
-    transition: all 0.3s ease;
-     margin-bottom: 10px;
-    box-shadow: 2px 2px 4px #000000;
-
-    font-size: 20px;
- 
-    border-radius: 4px;
-    background:
-    radial-gradient(
-    circle at top left,
-    #1c690d,
-    transparent 70%
-
-    )
+.card h3{
+    font-size: 30px;
+    font-weight: 700px;
+    color: white;
+    text-align: center;
 
 }
-#humidity:hover{
-    box-shadow: 4px 4px 8px #000000;
-    transform: scale(1.05);
+.card p {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  margin-top: 8px;
+  padding-left: 4px;
+
 }
-#wind-speed{
+.card{
 
-    transition: all 0.3s ease;
-     margin-bottom: 10px;
-    box-shadow: 2px 2px 4px #000000;
-    width: 500px;
-   
-    font-size: 20px;
-   
-    border-radius: 4px;
-    background:
-    radial-gradient(
-    circle at top left,
-    #1cb0ae,
-    transparent 70%
+transition:all 0.3s ease;
 
-    )
 
 }
 
-#wind-speed:hover{
-    box-shadow: 4px 4px 8px #000000;
-    transform: scale(1.05);
-}
+.card:hover{
 
-#feels-like{
-    transition: all 0.3s ease;
-     margin-bottom: 10px;
-    box-shadow: 2px 2px 4px #000000;
+    transform:translateY(-6px);
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
 
-    font-size: 20px;
-
-    border-radius: 4px;
-    background:
-    radial-gradient(
-    circle at top left,
-    #690d1c,
-    transparent 70%
-
-    )
 
 }
-#feels-like:hover{
-    box-shadow: 4px 4px 8px #000000;
-    transform: scale(1.05);
-}
-
-
-
